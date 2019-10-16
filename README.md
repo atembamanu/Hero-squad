@@ -7,7 +7,8 @@ This is a java app that enables a user create a hero and a squad and also the us
 
 
 ## Demo
-todo
+![Alt text](src/main/resources/public/img/demo.png?raw=true "")
+
 
 ## Getting Started
 
@@ -48,7 +49,7 @@ This is a sample test that tests if the getter method works
 @Test
 public void newHero_getName_String(){
   hero testHero = Hero.setUpNewHero();
-  assertEquals("Arnold", testHero.getName());
+  assertEquals("Atemba", testHero.getName());
 }
 ```
 
